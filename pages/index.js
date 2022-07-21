@@ -6,7 +6,7 @@ export default function Home() {
   const [timeZone, setTimeZone] = useState('');
   const [error, setError] = useState(null);
 
-  const FRONTEND_URL = 'http://localhost:3000' || process.env.NEXT_PUBLIC_URL;
+  const FRONTEND_URL = process.env.NEXT_PUBLIC_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,7 +18,12 @@ export default function Home() {
 
     try {
       const req = await fetch(
-        `${FRONTEND_URL}/api/african-time?timezone=${value}`
+        `${FRONTEND_URL}/api/african-time?timezone=${value}`,
+        {
+          headers: {
+            'Content-type': 'application/json',
+          },
+        }
       );
 
       const res = await req.json();
@@ -27,6 +32,7 @@ export default function Home() {
       setError(null);
     } catch (error) {
       setError(error.message);
+      setTimeZone("");
       console.log(`Error: ${error.message}`);
     }
   };
