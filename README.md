@@ -1,4 +1,4 @@
-This is a codematic assessment
+This is a coding assessment from codematic.io
 
 ## Getting Started
 
@@ -12,5 +12,8 @@ https://codematic-assessment.vercel.app/api/african-time?timezone=CAT
 
   
  ## Testing
- You can quickly test this API by going to this [endpoint](https://codematic-assessment.vercel.app/api/african-time?timezone=WAT) which shows the time in the West African Timezone
+ You can quickly test this API by going to this [endpoint](https://codematic-assessment.vercel.app/api/african-time?timezone=WAT) which shows the time in the West African Timezone  
+ You can also test this API by simply visiting the [test website](https://codematic-assessment.vercel.app) and selecting a timezone from the dropdown
+ 
+ 
 
