@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "timezone": "CVT",
+      "fullName": "Cape Verde Time ( GMT-1 )",
+      "timeDifference": -1,
+      "timeZoneLocation": "Atlantic/Cape_Verde"
+    },
+    {
+      "id": 2,
+      "timezone": "GMT",
+      "fullName": "Greenwich Mean Time ( GMT )",
+      "timeDifference": 0,
+      "timeZoneLocation": "Africa/Accra"
+    },
+    {
+      "id": 3,
+      "timezone": "WAT",
+      "fullName": "West Africa Time ( GMT+1 )",
+      "timeDifference": 1,
+      "timeZoneLocation": "Africa/Lagos"
+    },
+    {
+      "id": 4,
+      "timezone": "CAT",
+      "fullName": "Central Africa Time ( GMT+2 )",
+      "timeDifference": 2,
+      "timeZoneLocation": "Africa/Windhoek"
+    },
+    {
+      "id": 5,
+      "timezone": "EAT",
+      "fullName": "East Africa Time ( GMT+3 )",
+      "timeDifference": 3,
+      "timeZoneLocation": "Africa/Nairobi"
+    },
+    {
+      "id": 6,
+      "timezone": "MT",
+      "fullName": "Mauritius Time & Seychelles Time ( GMT+4 )",
+      "timeDifference": 4,
+      "timeZoneLocation": "Indian/Mauritius"
+    }
+  ]
+}
